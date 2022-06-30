@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Banco.Entities
 {
-    internal class Account
+    abstract class Account
     {
         public int Number { get;private set; }
         public string Holder { get;private set; }
